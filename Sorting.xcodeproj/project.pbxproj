@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3140E6181A5C25AA008282DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3140E6171A5C25AA008282DD /* main.cpp */; };
+		3140E6201A65B2D6008282DD /* Merge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3140E61E1A65B2D6008282DD /* Merge.cpp */; };
+		3140E6231A65B41E008282DD /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3140E6211A65B41E008282DD /* QuickSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		3140E6141A5C25AA008282DD /* Sorting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sorting; sourceTree = BUILT_PRODUCTS_DIR; };
 		3140E6171A5C25AA008282DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3140E61E1A65B2D6008282DD /* Merge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Merge.cpp; path = ../Merge.cpp; sourceTree = "<group>"; };
+		3140E61F1A65B2D6008282DD /* Merge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Merge.h; path = ../Merge.h; sourceTree = "<group>"; };
+		3140E6211A65B41E008282DD /* QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
+		3140E6221A65B41E008282DD /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,10 @@
 		3140E6161A5C25AA008282DD /* Sorting */ = {
 			isa = PBXGroup;
 			children = (
+				3140E61E1A65B2D6008282DD /* Merge.cpp */,
+				3140E61F1A65B2D6008282DD /* Merge.h */,
+				3140E6211A65B41E008282DD /* QuickSort.cpp */,
+				3140E6221A65B41E008282DD /* QuickSort.h */,
 				3140E6171A5C25AA008282DD /* main.cpp */,
 			);
 			path = Sorting;
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3140E6201A65B2D6008282DD /* Merge.cpp in Sources */,
+				3140E6231A65B41E008282DD /* QuickSort.cpp in Sources */,
 				3140E6181A5C25AA008282DD /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +244,7 @@
 				3140E61D1A5C25AA008282DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
